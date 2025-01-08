@@ -41,4 +41,6 @@ if(calBMI(massMark1,heightMark1) > calBMI(massJohn1,heightJohn1)){
 }else{
     markHigherBMI = false;
 }
+
 checkBMI(markHigherBMI);
+
