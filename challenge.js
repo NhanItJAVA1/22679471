@@ -8,8 +8,6 @@ var markHigherBMI;
 function calBMI(mass, height){
     return mass / (height*height);
 }
-
-
 function checkBMI(markHigherBMI){
     if(markHigherBMI){
         console.log("Mark's BMI is higher than John's!");
@@ -28,6 +26,11 @@ if(calBMI(massMark,heightMark) > calBMI(massJohn,heightJohn)){
 
 checkBMI(markHigherBMI);
 
+if(calBMI(massMark,heightMark) > calBMI(massJohn,heightJohn)){
+    markHigherBMI = true;
+}else{
+    markHigherBMI = false;
+}
 var massMark1 = 95;
 var heightMark1 = 1.88;
 
